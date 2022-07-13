@@ -1,0 +1,41 @@
+.flexcontainer{
+    display:flex;
+    background-color:plum;
+    /*flex direction can be column or row; colume-reverse;row-reverse*/
+    flex-direction:row;
+    /*wrap values can be wrap,no wrap,wrap-reverse*/
+    flex-wrap:wrap;
+}
+.flexcontainer div{
+    width:100px;
+    font-size:80px;
+    background-color:violet;
+    margin:10px;
+}
+.container1{
+    display:flex;
+    background-color:lightcoral;
+    /*flex flow is a short hand property for setting both flex-direction and flex-wrap*/
+    flex-flow:row wrap;
+    justify-content:center;
+}
+.container1 div{
+    font-size:90px;
+    width:110px;
+    background-color:aquamarine;
+    margin:20px;
+}
+.container2{
+    display:flex;
+    background-color:fuchsia;
+    flex-flow:row wrap;
+    /*justify-content can align elements with values center,flex-start,flex-end,space-between space-around*/
+    justify-content:space-around;
+    align-items:center;
+}
+.container2 div{
+    font-size:90px;
+    width:110px;
+    background-color:turquoise;
+    margin:20px;
+}
